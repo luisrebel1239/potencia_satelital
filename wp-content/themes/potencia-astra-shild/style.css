@@ -1,0 +1,160 @@
+/**
+Theme Name: Potencia Satelital 
+Author: Cointic
+Author URI: https://cointic.com.mx/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: potencia-satelital
+Template: astra
+*/
+
+.list-color {
+	color: #4D4D4D;
+}
+
+.list-color:hover {
+	color: #F39200;
+}
+
+/*Formulario de contacto */
+
+.form-contac{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.input-contac{
+	width: 48%;
+    padding-top: 20px;
+}
+
+.input-contac input{
+	padding: 23px 0px 23px 20px !important;
+	font-size: 15px !important;
+	font-family: 'Rubik';
+    border: solid 1px #29235c;
+}
+
+.wpcf7 input.wpcf7-form-control:not([type=submit]):focus{
+    border: solid 1px #f39200 !important;
+}
+
+.textarea-contac{
+	padding-top: 20px;
+    width: 100% !important;
+}
+
+.textarea-contac textarea{
+	min-height: 150px !important;
+	width: 100% !important;
+	height: 150px !important;
+	font-family: 'Rubik' !important;
+	font-size: 15px !important;
+	border: solid 1px #29235c;
+}
+
+.wpcf7 textarea.wpcf7-form-control:focus{
+	border: solid 1px #f39200 !important;
+}
+
+.botton-contac{
+	width: 100%;
+    padding-top: 20px;
+}
+
+.botton-contac input[type="submit"]{
+	background-color: #f39200;
+	text-align: center;
+    font-size: 15px;
+    border: solid 1px #f39200;
+    font-family: 'Rubik';
+}
+
+.botton-contac input[type="submit"]:hover {
+	background-color: #29235c;
+	border: solid 1px #29235c;
+	transition: .3s;
+}
+
+.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a){
+	text-decoration: none !important;
+}
+
+.content-form-contact .textarea-contac textarea{
+	min-height: 300px !important;
+	width: 100% !important;
+	height: 300px !important;
+}
+
+.content-form-contact .input-contac {
+	padding-bottom: 10px;
+}
+
+.content-servi-box:hover .elementor-element.elementor-element-a9b222d.e-con-full.content-servi-box.e-flex.e-con.e-child {
+    background: #29235C;
+    border-radius: 20px;
+}
+
+.list-menu .elementor-widget-container ul {
+	list-style: none;
+    margin: 0px;
+}
+
+.list-menu .elementor-widget-container li {
+	display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+}
+
+.list-menu .elementor-widget-container svg {
+	height: 22px !important;
+	width: 22px !important;
+	padding-right: 5px;
+}
+
+.stcky-ser {
+	top: 20px;
+	position: sticky !important;
+}
+
+.footer-cont .elementor-widget-container ul {
+	margin: 0px !important;
+	list-style: none !important;
+}
+
+.footer-cont .elementor-widget-container li {
+	display: flex !important;
+    flex-direction: row !important;
+}
+
+.footer-cont .elementor-widget-container svg {
+	width: 28px !important;
+	height: 28px !important;
+    margin-right: 10px !important;
+}
+
+
+
+.list-page-service .elementor-repeater-item-88547d2 {
+	background: #F39200 !important;
+}
+
+.list-page-service .elementor-repeater-item-88547d2 span {
+	color: #ffff !important;
+}
+
+.list-page-service .elementor-repeater-item-88547d2 svg {
+	fill: #ffff !important;
+}
+
+@media (max-width: 767px) {
+	.input-contac{
+	width: 100%;
+	padding-top: 20px;
+	}
+}
+
